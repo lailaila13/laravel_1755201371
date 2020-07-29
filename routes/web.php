@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('mhs', 'MahasiswaController@index');
+Route::get('dosen', 'DosenController@index');
