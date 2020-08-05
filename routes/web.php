@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('mhs', 'MahasiswaController@index');
-Route::get('dosen', 'DosenController@index');
+Route::get('/mhs_list', 'MahasiswaController@mhs_list')->name('mhs_list');
+//Route::get('dosen', 'DosenController@index');
